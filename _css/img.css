@@ -1,0 +1,25 @@
+.galeria img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .holder {
+    display: flex;
+    justify-content: center;
+}
+.imagem {
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.imagem::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+}

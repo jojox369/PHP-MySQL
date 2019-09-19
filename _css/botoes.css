@@ -1,0 +1,25 @@
+.btn{
+    font-family: Arial;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:none;
+    padding: 10px;
+    cursor:pointer;
+    
+}
+.btn-estilo{
+    background: #4169E1;
+    color: #fff;
+    box-shadow: 0 5px 0 #00008B;
+}
+.btn-estilo:hover{
+    background: #00008B;
+    color: #fff;
+    box-shadow: 0 5px 0 #191970;
+}
+.btn-estilo:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none;
+}
